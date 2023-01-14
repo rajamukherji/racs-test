@@ -1,1 +1,1 @@
-echo "echo Hello" > hello.sh
+echo "echo Hello world" > hello.sh
