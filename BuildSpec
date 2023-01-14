@@ -1,0 +1,5 @@
+FROM docker.io/library/debian:stable-slim
+
+WORKDIR /workspace/source
+
+ENTRYPOINT ["build.sh"]
