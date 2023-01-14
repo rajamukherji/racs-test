@@ -1,5 +1,5 @@
 FROM docker.io/library/debian:stable-slim
 
-RUN cp /workspace/source/test.sh /test.sh
+RUN cp /workspace/source/hello.sh /hello.sh
 
-ENTRYPOINT ["/test.sh"]
+ENTRYPOINT ["/hello.sh"]
