@@ -2,6 +2,6 @@ FROM docker.io/library/debian:stable-slim
 
 WORKDIR /workspace/source
 
-RUN chmod +x build.sh
+RUN chmod +x /workspace/source/build.sh
 
 ENTRYPOINT ["./build.sh"]
